@@ -26,3 +26,19 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.menu {
+  background-color: green;
+  color: white;
+  display:flex;
+  }
+  
+  .menu li {
+    list-style: none;
+    display:inline;
+    padding: 5px
+  }
+  .movieInfo {
+    list-style: none;
+    display: inline;
+  }
